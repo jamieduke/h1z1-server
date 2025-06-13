@@ -385,7 +385,7 @@ export class ConstructionManager {
     const isInPoi = isPosInPoi(position);
     // allow placement in poi if object is parented to a foundation
     if (isInPoi && !isInsidePermissionedFoundation) {
-      return true;
+      return false; // TODO: FIX THIS BULLSHIT!!!!!!
     }
     return false;
   }

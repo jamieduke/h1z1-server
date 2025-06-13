@@ -172,7 +172,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
 
   // #region TOOLS
   "ItemSpawner_Weapon_Crowbar01.adr": {
-    spawnChance: 35,
+    spawnChance: 55,
     items: [
       {
         item: Items.WEAPON_CROWBAR,
@@ -259,7 +259,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_Weapon_FireAxe01.adr": {
-    spawnChance: 20,
+    spawnChance: 40,
     items: [
       {
         item: Items.WEAPON_AXE_FIRE,
@@ -285,7 +285,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_Weapon_Hatchet01.adr": {
-    spawnChance: 20,
+    spawnChance: 40,
     items: [
       {
         item: Items.WEAPON_HATCHET,
@@ -311,7 +311,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_Weapon_Bat02.adr": {
-    spawnChance: 10,
+    spawnChance: 40,
     items: [
       {
         item: Items.WEAPON_BAT_ALUM,
@@ -324,7 +324,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_Weapon_Bow.adr": {
-    spawnChance: 20,
+    spawnChance: 40,
     items: [
       {
         item: Items.WEAPON_BOW_MAKESHIFT,
@@ -362,7 +362,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
   },
   "ItemSpawner_Weapon_M9Auto.adr": {
     // need to find 9MM ammo spawner
-    spawnChance: 20,
+    spawnChance: 35,
     items: [
       {
         item: Items.WEAPON_M9,
@@ -375,7 +375,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_AmmoBox02_1911.adr": {
-    spawnChance: 20,
+    spawnChance: 30,
     items: [
       {
         item: Items.AMMO_45,
@@ -391,7 +391,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
 
   // #region 308 RIFLE
   "ItemSpawner_Weapon_M24.adr": {
-    spawnChance: 50,
+    spawnChance: 60,
     items: [
       {
         item: Items.WEAPON_308,
@@ -404,14 +404,14 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_AmmoBox02_308Rifle.adr": {
-    spawnChance: 40,
+    spawnChance: 60,
     items: [
       {
         item: Items.AMMO_308,
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 4
+          max: 6
         }
       }
     ]
@@ -420,7 +420,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
 
   // #region CONSUMABLES
   "ItemSpawner_FirstAidKit.adr": {
-    spawnChance: 5,
+    spawnChance: 15,
     items: [
       {
         item: Items.FIRST_AID,
@@ -433,7 +433,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_CannedFood.adr": {
-    spawnChance: 20,
+    spawnChance: 35,
     items: [
       {
         item: Items.GROUND_COFFEE,
@@ -454,7 +454,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_WaterContainer_Small_Purified.adr": {
-    spawnChance: 10,
+    spawnChance: 25,
     items: [
       {
         item: Items.WATER_PURE,
@@ -470,7 +470,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
 
   // #region CLOTHING
   "ItemSpawner_Clothes_MotorcycleHelmet.adr": {
-    spawnChance: 10,
+    spawnChance: 20,
     items: [
       {
         item: Items.HELMET_MOTORCYCLE,
@@ -483,7 +483,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     ]
   },
   "ItemSpawner_Clothes_Helmet_Tactical_ChipsScratches.adr": {
-    spawnChance: 10,
+    spawnChance: 20,
     items: [
       {
         item: Items.DEFAULT_TACTICAL_HELMET,
@@ -550,7 +550,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     items: [
       {
         item: Items.WEAPON_308,
-        weight: 6,
+        weight: 25,
         spawnCount: {
           min: 1,
           max: 1
@@ -558,7 +558,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.WEAPON_SHOTGUN,
-        weight: 6,
+        weight: 25,
         spawnCount: {
           min: 1,
           max: 1
@@ -598,7 +598,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.SHIRT_DEFAULT,
-        weight: 40,
+        weight: 31,
         spawnCount: {
           min: 1,
           max: 1
@@ -606,7 +606,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.PANTS_DEFAULT,
-        weight: 40,
+        weight: 31,
         spawnCount: {
           min: 1,
           max: 1
@@ -710,7 +710,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_380,
-        weight: 15,
+        weight: 25,
         spawnCount: {
           min: 1,
           max: 4
@@ -742,7 +742,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_308,
-        weight: 3,
+        weight: 23,
         spawnCount: {
           min: 1,
           max: 4
@@ -750,9 +750,9 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_12GA,
-        weight: 3,
+        weight: 23,
         spawnCount: {
-          min: 1,
+          min: 2,
           max: 4
         }
       },
@@ -822,7 +822,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
     items: [
       {
         item: Items.AMMO_45,
-        weight: 120,
+        weight: 90,
         spawnCount: {
           min: 1,
           max: 4
@@ -830,7 +830,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_9MM,
-        weight: 120,
+        weight: 90,
         spawnCount: {
           min: 1,
           max: 4
@@ -838,7 +838,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_380,
-        weight: 120,
+        weight: 90,
         spawnCount: {
           min: 1,
           max: 4
@@ -854,7 +854,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_223,
-        weight: 50,
+        weight: 60,
         spawnCount: {
           min: 1,
           max: 5
@@ -862,7 +862,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_762,
-        weight: 50,
+        weight: 60,
         spawnCount: {
           min: 1,
           max: 5
@@ -870,7 +870,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_308,
-        weight: 50,
+        weight: 60,
         spawnCount: {
           min: 1,
           max: 4
@@ -878,7 +878,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.AMMO_12GA,
-        weight: 50,
+        weight: 60,
         spawnCount: {
           min: 1,
           max: 4
@@ -942,7 +942,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.WEAPON_AK47,
-        weight: 10,
+        weight: 40,
         spawnCount: {
           min: 1,
           max: 1
@@ -967,7 +967,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.WEAPON_CROWBAR,
-        weight: 25,
+        weight: 45,
         spawnCount: {
           min: 1,
           max: 1
@@ -1001,29 +1001,29 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         item: Items.METAL_SHEET,
         weight: 30,
         spawnCount: {
-          min: 1,
-          max: 3
+          min: 3,
+          max: 6
         }
       },
       {
         item: Items.METAL_SCRAP,
         weight: 40,
         spawnCount: {
-          min: 1,
-          max: 4
+          min: 3,
+          max: 7
         }
       },
       {
         item: Items.METAL_PIPE,
         weight: 20,
         spawnCount: {
-          min: 1,
-          max: 2
+          min: 2,
+          max: 4
         }
       },
       {
         item: Items.WEAPON_AXE_WOOD,
-        weight: 20,
+        weight: 40,
         spawnCount: {
           min: 1,
           max: 1
@@ -1066,7 +1066,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -1074,7 +1074,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 10,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 2
         }
       },
       {
@@ -1090,7 +1090,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 40,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -1178,7 +1178,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 5,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -1202,7 +1202,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -1210,7 +1210,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 10,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -1218,7 +1218,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 20,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -1234,15 +1234,15 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
         item: Items.SUGAR,
-        weight: 10,
+        weight: 20,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -1250,7 +1250,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 7,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 2
         }
       }
     ]
@@ -1266,7 +1266,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 23,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 2
         }
       },
       {
@@ -1322,7 +1322,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -1330,7 +1330,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -1338,7 +1338,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 2
+          max: 5
         }
       },
       {
@@ -1386,7 +1386,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 2
         }
       },
       {
@@ -1394,7 +1394,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 2
         }
       },
       {
@@ -1680,8 +1680,8 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         item: Items.AMMO_223,
         weight: 100,
         spawnCount: {
-          min: 1,
-          max: 5
+          min: 2,
+          max: 6
         }
       },
       {
@@ -1704,8 +1704,8 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         item: Items.AMMO_12GA,
         weight: 100,
         spawnCount: {
-          min: 1,
-          max: 4
+          min: 2,
+          max: 6
         }
       },
       {
@@ -1726,7 +1726,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.BACKPACK_MILITARY_TAN,
-        weight: 100,
+        weight: 150,
         spawnCount: {
           min: 1,
           max: 1
@@ -1758,7 +1758,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.WEAPON_308,
-        weight: 50,
+        weight: 70,
         spawnCount: {
           min: 1,
           max: 1
@@ -1766,7 +1766,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
       },
       {
         item: Items.WEAPON_SHOTGUN,
-        weight: 50,
+        weight: 70,
         spawnCount: {
           min: 1,
           max: 1
@@ -1807,7 +1807,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 4
+          max: 6
         }
       },
       {
@@ -1815,7 +1815,7 @@ export const lootTables: { [lootSpawner: string]: LootSpawner } = {
         weight: 100,
         spawnCount: {
           min: 1,
-          max: 4
+          max: 5
         }
       },
       {
@@ -2113,7 +2113,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 5
         }
       },
       {
@@ -2121,7 +2121,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 4
         }
       },
       {
@@ -2143,7 +2143,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 5
         }
       },
       {
@@ -2151,7 +2151,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 4
         }
       },
       {
@@ -2173,7 +2173,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 5
         }
       },
       {
@@ -2181,7 +2181,7 @@ export const containerLootSpawners: {
         weight: 33,
         spawnCount: {
           min: 1,
-          max: 3
+          max: 4
         }
       },
       {
@@ -2208,7 +2208,7 @@ export const containerLootSpawners: {
     items: [
       {
         item: Items.WEAPON_AR15,
-        weight: 20,
+        weight: 40,
         spawnCount: {
           min: 1,
           max: 1
@@ -2216,7 +2216,7 @@ export const containerLootSpawners: {
       },
       {
         item: Items.KEVLAR_DEFAULT,
-        weight: 35,
+        weight: 55,
         spawnCount: {
           min: 1,
           max: 1
@@ -2238,7 +2238,7 @@ export const containerLootSpawners: {
       },
       {
         item: Items.BACKPACK_BLUE_ORANGE,
-        weight: 10,
+        weight: 20,
         spawnCount: {
           min: 1,
           max: 1
@@ -2309,7 +2309,7 @@ export const containerLootSpawners: {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 2
+          max: 4
         }
       },
       {
@@ -2325,7 +2325,7 @@ export const containerLootSpawners: {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 2
+          max: 4
         }
       },
       {
@@ -2333,7 +2333,7 @@ export const containerLootSpawners: {
         weight: 13,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2349,7 +2349,7 @@ export const containerLootSpawners: {
         weight: 30,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 4
         }
       },
       {
@@ -2450,7 +2450,7 @@ export const containerLootSpawners: {
       },
       {
         item: Items.VEHICLE_KEY,
-        weight: 5,
+        weight: 15,
         spawnCount: {
           min: 1,
           max: 1
@@ -2467,7 +2467,7 @@ export const containerLootSpawners: {
         weight: 13,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2513,7 +2513,7 @@ export const containerLootSpawners: {
         weight: 15,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2521,7 +2521,7 @@ export const containerLootSpawners: {
         weight: 10,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2529,7 +2529,7 @@ export const containerLootSpawners: {
         weight: 30,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2537,7 +2537,7 @@ export const containerLootSpawners: {
         weight: 25,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2601,7 +2601,7 @@ export const containerLootSpawners: {
         weight: 30,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
@@ -2657,7 +2657,7 @@ export const containerLootSpawners: {
         weight: 30,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       }
     ]
@@ -2725,7 +2725,7 @@ export const containerLootSpawners: {
         weight: 30,
         spawnCount: {
           min: 1,
-          max: 1
+          max: 3
         }
       },
       {
