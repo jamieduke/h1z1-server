@@ -438,22 +438,22 @@ export class ConstructionManager {
       return true;
     }
 
-    if (
-      server.isNoBuildInPois &&
-      this.detectPOIPlacement(
-        itemDefinitionId,
-        position,
-        client,
-        isInsidePermissionedFoundation
-      )
-    ) {
-      this.sendPlacementFinalize(server, client, false);
-      server.sendAlert(
-        client,
-        "You may not place this object this close to a town or point of interest."
-      );
-      return true;
-    }
+    // if (
+    //   server.isNoBuildInPois &&
+    //   this.detectPOIPlacement(
+    //     itemDefinitionId,
+    //     position,
+    //     client,
+    //     isInsidePermissionedFoundation
+    //   )
+    // ) {
+    //   this.sendPlacementFinalize(server, client, false);
+    //   server.sendAlert(
+    //     client,
+    //     "You may not place this object this close to a town or point of interest."
+    //   );
+    //   return true;
+    // }
 
     return false;
   }
